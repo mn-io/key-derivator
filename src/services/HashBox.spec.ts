@@ -79,8 +79,8 @@ describe('HashBox', () => {
 
     expect(HashBox.calculateHash('', '', 1, -1)).rejects.toEqual(TypeError('Bad key length'))
     expect(HashBox.calculateHash('', '', -1, 0)).rejects.toEqual(TypeError('Bad iterations'))
-    expect(HashBox.calculateHash([] as unknown as string, '', 0, 0)).rejects.toEqual(TypeError('Password must be a buffer or string'))
-    expect(HashBox.calculateHash('', [] as unknown as string, 0, 0)).rejects.toEqual(TypeError('Salt must be a buffer or string'))
+    expect(HashBox.calculateHash([] as unknown as string, '', 0, 0)).rejects.toEqual(TypeError('Password must be a string, a Buffer, a typed array or a DataView'))
+    expect(HashBox.calculateHash('', [] as unknown as string, 0, 0)).rejects.toEqual(TypeError('Salt must be a string, a Buffer, a typed array or a DataView'))
   })
 
   it('has expected implementation of translateBufferToReadableString', () => {

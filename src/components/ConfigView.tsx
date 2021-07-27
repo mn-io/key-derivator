@@ -27,7 +27,7 @@ class ConfigView extends React.Component<Props, State> {
     const { classes } = this.props
     const pairs = toPairs(obj)
 
-    return pairs.map(pair => {
+    return pairs.map((pair:[string, any]) => {
       const label = pair[0].replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase()
       const value = pair[1].toString()
 

@@ -6,13 +6,13 @@
   "author": "Mario Neises",
   "license": "UNLICENSED",
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
+    "@material-ui/core": "^3.9.4",
     "@material-ui/icons": "^3.0.2",
-    "date-fns": "^1.30.1",
-    "lodash": "^4.17.15",
-    "pbkdf2": "^3.0.17",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "date-fns": "^2.23.0",
+    "lodash": "^4.17.21",
+    "pbkdf2": "^3.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts-ts": "^3.1.0"
   },
   "scripts": {
@@ -25,10 +25,10 @@
     "analyze": "node analyzeBuild.js"
   },
   "devDependencies": {
-    "@types/enzyme": "^3.10.3",
-    "@types/jest": "^24.0.13",
-    "@types/lodash": "^4.14.129",
-    "@types/node": "^12.0.2",
+    "@types/enzyme": "^3.10.9",
+    "@types/jest": "^24.9.1",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.4.3",
     "@types/pbkdf2": "^3.0.0",
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
@@ -36,11 +36,11 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.4.0",
-    "json": "^9.0.6",
+    "json": "^11.0.0",
     "react-test-renderer": "^16.8.6",
-    "typescript": "^3.4.5",
-    "webpack-bundle-analyzer": "^3.3.2",
-    "xhr-mock": "^2.4.1"
+    "typescript": "^3.9.9",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "xhr-mock": "^2.5.1"
   },
   "homepage": ""
 }
